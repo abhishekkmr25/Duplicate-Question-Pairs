@@ -1,5 +1,5 @@
 # Duplicate-Question-Pairs 
-📌 Project Overview
+##**📌 Project Overview**
 
 Quora receives millions of questions every day. Many of these questions are semantically identical but phrased differently, leading to redundancy and poor user experience.
 
@@ -7,7 +7,7 @@ This project aims to identify whether two given questions are duplicates or not 
 
 The model learns semantic similarity between question pairs and predicts whether they convey the same meaning.
 
-🎯 Objective
+##**🎯 Objective**
 
 Detect duplicate question pairs automatically
 
@@ -15,7 +15,7 @@ Reduce redundancy in question-answer platforms
 
 Apply real-world NLP preprocessing, feature engineering, and modeling
 
-📊 Dataset
+##**📊 Dataset**
 
 Source: Quora Question Pairs Dataset
 
@@ -29,7 +29,7 @@ Label (1 → Duplicate, 0 → Not Duplicate)
 
 Size: 400k+ question pairs
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 
 Programming Language: Python
 
@@ -57,8 +57,8 @@ Lemmatization
 
 TF-IDF Vectorization
 
-🧠 Approach & Methodology
-1️⃣ Data Preprocessing
+##**🧠 Approach & Methodology**
+###1️⃣ Data Preprocessing
 
 Lowercasing text
 
@@ -68,7 +68,7 @@ Stopword removal
 
 Lemmatization
 
-2️⃣ Feature Engineering
+###2️⃣ Feature Engineering
 
 Question length features
 
@@ -78,7 +78,7 @@ Common word count
 
 TF-IDF vectors for semantic representation
 
-3️⃣ Model Building
+###3️⃣ Model Building
 
 Machine Learning models used:
 
@@ -90,7 +90,7 @@ XGBoost (optional / advanced)
 
 Train-test split for evaluation
 
-4️⃣ Model Evaluation
+###4️⃣ Model Evaluation
 
 Accuracy
 
@@ -102,7 +102,7 @@ F1-score
 
 Confusion Matrix
 
-📈 Results
+##**📈 Results**
 
 Achieved high accuracy in detecting duplicate question pairs
 
