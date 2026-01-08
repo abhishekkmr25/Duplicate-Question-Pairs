@@ -31,7 +31,7 @@ Size: 400k+ question pairs
 
 🛠️ Tech Stack
 
-Programming Language: Python
+#Programming Language: Python
 
 Libraries & Tools:
 
@@ -45,7 +45,7 @@ NLTK
 
 Matplotlib / Seaborn
 
-NLP Techniques:
+#NLP Techniques:
 
 Text cleaning & normalization
 
@@ -58,6 +58,7 @@ Lemmatization
 TF-IDF Vectorization
 
 **🧠 Approach & Methodology**
+
 1️⃣ Data Preprocessing
 
 Lowercasing text
@@ -68,7 +69,7 @@ Stopword removal
 
 Lemmatization
 
-###2️⃣ Feature Engineering
+2️⃣ Feature Engineering
 
 Question length features
 
